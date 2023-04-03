@@ -9,7 +9,7 @@ import { CardListComponent } from './card-list/card-list.component';
 import { CardComponent } from './card/card.component';
 import { HeaderComponent } from './header/header.component';
 import {MatCardModule} from '@angular/material/card';
-import { PaginatorModule } from 'primeng/paginator';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +24,6 @@ import { PaginatorModule } from 'primeng/paginator';
     BrowserAnimationsModule,
     MatCardModule,
     HttpClientModule,
-    PaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
